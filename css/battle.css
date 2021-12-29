@@ -1,0 +1,11 @@
+.social_battle {
+  background: url(../../img/bgg.png);
+  height: 960.25px;
+  width: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000;
+}
+/*# sourceMappingURL=battle.css.map */

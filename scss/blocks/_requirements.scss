@@ -1,0 +1,87 @@
+.requirements {
+  background: url(./../img/sos.jpg);
+  height: 807.25px;
+  color: $light-cl;
+  @include bgp;
+}
+
+.requirements__title {
+  text-align: center;
+  margin: 105px 0 100px;
+}
+
+.req__title {
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+}
+
+.requirements__tit {
+  font-size: 70px;
+  line-height: 80px;
+  letter-spacing: 3px;
+}
+
+@media (max-width:1025px) {
+  .requirements {
+    height: 672px;
+    opacity: 0.95;
+  }
+
+  .requirements__title {
+    margin: 90px 0 70px;
+  }
+
+  .require {
+    text-align: center;
+  }
+
+  .req__title {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .requirements__tit {
+    font-size: 50px;
+    line-height: 55px;
+  }
+}
+
+@media (max-width:770px) {
+  .requirements {
+    height: 500px;
+  }
+
+  .requirements__title {
+    margin: 70px 0 50px;
+  }
+
+  .req {
+    width: 50%;
+  }
+}
+
+@media (max-width:426px) {
+  .requirements {
+    height: 245px;
+  }
+
+  .requirements__title {
+    margin: 20px 0 20px;
+  }
+
+  .req__title {
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .requirements__tit {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .req {
+    width: 57%;
+  }
+
+}

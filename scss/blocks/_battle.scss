@@ -1,0 +1,124 @@
+.social_battle {
+  background: url(./../img/bggg.jpg);
+  height: 805.25px;
+  @include bgp;
+  color: $dark-cl;
+  border-bottom: $dark-cl;
+
+}
+
+.social__battle_inner {
+  @include flex;
+  margin-top: 170px;
+}
+
+.game__left_side {
+  color: $light-cl;
+}
+
+.sos {
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.royale {
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 3px;
+  width: 410.93px;
+  margin-bottom: 73px;
+}
+
+.sos_royale {
+  font-size: 16px;
+  line-height: 22px;
+  width: 364.85px;
+  margin-right: auto;
+  font-family: Montserrat;
+}
+
+.fortress {
+  width: 100%;
+}
+
+@media (max-width:1025px) {
+  .social_battle {
+    height: 736px;
+  }
+
+  .social__battle_inner {
+    margin-top: 150px;
+  }
+}
+
+@media (max-width:770px) {
+  .social_battle {
+    height: 550px;
+  }
+
+  .social__battle_inner {
+    margin-top: 100px;
+  }
+
+  .sos {
+    font-size: 20px;
+  }
+
+  .royale {
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 55px;
+  }
+
+  .sos_royale {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .fortress {
+    width: 90%;
+  }
+}
+
+@media (max-width:426px) {
+
+  .social_battle {
+    height: 255px;
+  }
+
+  .social__battle_inner {
+    margin-top: 25px;
+  }
+
+  // .sos {
+  //   font-size: 15px;
+  // }
+
+  .royale {
+    font-size: 19.5px;
+    line-height: 20px;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .sos_royale {
+    font-size: 10px;
+    line-height: 12px;
+    width: 80%;
+  }
+
+  .social__battle_inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .brat__inner_info {
+    width: 80%;
+    text-align: center;
+  }
+
+
+
+}

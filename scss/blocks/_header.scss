@@ -1,0 +1,100 @@
+.header__inner {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a {
+  @include links;
+}
+
+nav {
+  background: url(./../img/hero.png);
+  height: 940.25px;
+  color: $dark-cl;
+  @include bgp;
+  padding: 0;
+  margin: 0;
+}
+
+.burger {
+  cursor: pointer;
+  display: none;
+}
+
+.line {
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+}
+
+.fa-xbox:before {
+  font-size: 30px;
+  color: #b7deb1;
+}
+
+.fa-steam:before {
+  font-size: 30px;
+  color: #00adee;
+}
+
+a {
+  transition: all 0.5s ease;
+  transition-delay: .1s;
+
+  &:hover {
+    color: red;
+  }
+}
+
+li {
+  &:hover {
+    transform: scale(1.30);
+    transition: .2s ease-in-out;
+  }
+}
+
+@media (max-width:1025px) {
+  nav {
+    height: 670px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+}
+
+@media (max-width:770px) {
+  nav {
+    height: 500px;
+  }
+
+  li {
+    font-size: 10px;
+  }
+}
+
+@media (max-width:426px) {
+  nav {
+    height: 276px;
+  }
+
+  li {
+    font-size: 5px;
+
+  }
+
+  .none {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .logo {
+    width: 55%;
+  }
+}

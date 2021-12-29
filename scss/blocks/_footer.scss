@@ -1,0 +1,68 @@
+.footer {
+  background-color: #080a0b;
+  height: 215.25px;
+  color: $light-cl;
+  @include bgp;
+}
+
+.ul {
+  @include flex;
+  @include list-unstyled;
+  margin-bottom: 42px;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+hr {
+  opacity: 0.5;
+  border: 0.873968px solid $light-cl;
+  margin-bottom: 25px;
+}
+
+.footer__last {
+  @include flex;
+  font-family: Montserrat;
+}
+
+.corporation {
+  font-size: 14px;
+  line-height: 19px;
+  color: $light-cl;
+  opacity: 0.5;
+}
+
+.privacy {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+}
+.fa-facebook-f:before,
+.fa-twitter:before,
+.fa-youtube:before,
+.fa-twitch:before{
+  font-size: 30px;
+}
+
+
+@media (max-width:426px) {
+  .loggo {
+    width: 55%;
+  }
+
+  li {
+    margin: 0 auto;
+    padding-left: 35px;
+  }
+
+  .corporation {
+    font-size: 12px;
+    line-height: 13px;
+  }
+
+  .privacy {
+    font-size: 12px;
+    line-height: 13px;
+    text-align: right;
+  }
+}

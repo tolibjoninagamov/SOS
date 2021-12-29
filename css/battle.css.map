@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACb,UAAU,EAAE,sBAAsB;EAClC,MAAM,EAAE,QAAQ;EAChB,KAAK,EAAE,IAAI;EACX,mBAAmB,EAAE,MAAM;EAC3B,qBAAqB,EAAE,KAAK;EAC5B,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,KAAK;EACtB,KAAK,EAAE,IAAI;CACZ",
+    "sources": [
+        "../scss/blocks/battle.scss"
+    ],
+    "names": [],
+    "file": "battle.css"
+}

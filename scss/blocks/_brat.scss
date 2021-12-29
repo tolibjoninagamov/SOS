@@ -1,0 +1,140 @@
+.brat {
+  background: url(./../img/bratt.jpg);
+  height: 807.25px;
+  color: $light-cl;
+  @include bgp;
+}
+
+.brat__inner {
+  display: flex;
+  margin: 175px 0 250px 0;
+}
+
+.brat__features {
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 3px;
+  margin-bottom: 71px;
+}
+
+.survive {
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 2px;
+  color: $yellow;
+  margin-bottom: 8px;
+}
+
+@media (max-width:1025px) {
+  .brat {
+    height: 522px;
+  }
+
+  .brat__inner {
+    margin-top: 90px;
+  }
+
+  .sos {
+    font-size: 20px;
+  }
+
+  .brat__features {
+    font-size: 60px;
+    margin-bottom: 42px;
+  }
+
+  .sos_royale {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .survive {
+    font-size: 30px;
+    line-height: 28px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width:770px) {
+  .brat {
+    height: 410px;
+  }
+
+  .brat__inner {
+    margin-top: 50px;
+  }
+
+  .sos {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  .brat__features {
+    font-size: 40px;
+    margin-bottom: 18px;
+    line-height: 45px;
+  }
+
+  .sos_royale {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .survive {
+    font-size: 24px;
+    line-height: 24px;
+
+  }
+
+  .brat__inner_info {
+    margin-right: -20px;
+  }
+
+
+}
+
+@media (max-width:430px) {
+  .lorem {
+    display: none;
+  }
+
+  .fortress {
+    display: none;
+    justify-content: center;
+  }
+
+  .brat {
+    height: 230px;
+    opacity: 0.97;
+  }
+
+  .brat__inner_info {
+    margin: 0 auto;
+  }
+
+  .brat__inner {
+    margin-top: 0;
+    padding-top: 20px;
+  }
+
+  .sos {
+    font-size: 10px;
+    line-height: 10px;
+  }
+
+  .brat__features {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 5px;
+  }
+
+  .sos_royale {
+    width: 100%;
+    margin-bottom: 5px !important;
+  }
+
+  .survive {
+    font-size: 15px;
+    margin-bottom: 5px !important;
+  }
+}

@@ -1,0 +1,117 @@
+  .last {
+    background-color: #080a0b;
+    height: 807.25px;
+    color: $light-cl;
+    @include bgp;
+  }
+
+  .last {
+    display: flex;
+  }
+
+  .head_of_shit {
+    margin: 50px 0;
+  }
+
+  .last__info {
+    margin-top: 220px;
+  }
+
+  input[type=text] {
+    width: 50%;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-right: 20px;
+    color: $yellow;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  input[placeholder] {
+    padding: 20px;
+    font-weight: 700;
+  }
+
+  @media (max-width:1025px) {
+    .last__info {
+      margin-top: 100px;
+    }
+
+    .think {
+      font-size: 18px;
+      line-height: 20px;
+    }
+
+    .press {
+      font-size: 40px;
+      line-height: 45px;
+      margin-bottom: 35px;
+    }
+
+    input[type=text] {
+      margin-bottom: 15px;
+    }
+
+    .head_of_shit {
+      width: 85%;
+      margin-top: 10px;
+      margin-bottom: 0;
+    }
+
+    .last {
+      height: 100%;
+    }
+  }
+
+  @media (max-width:770px) {
+    .last__info {
+      margin-top: 50px;
+    }
+
+    .think {
+      font-size: 18px;
+      line-height: 20px;
+    }
+
+    .press {
+      font-size: 40px;
+      line-height: 45px;
+      margin-bottom: 35px;
+    }
+
+    input[type=text] {
+      margin-bottom: 15px;
+      width: 70%;
+    }
+
+    .head_of_shit {
+      width: 50%;
+      margin-top: 10px;
+      margin-bottom: 0;
+    }
+
+    .last {
+      height: 100%;
+      text-align: center;
+    }
+
+    .description {
+      width: 100%;
+    }
+  }
+
+  @media (max-width:426px) {
+    input[type=text] {
+      width: 100%;
+    }
+
+  }
+
+  @media (max-width:376px) {
+    input[type=text] {
+      padding: 11px;
+    }
+  }
